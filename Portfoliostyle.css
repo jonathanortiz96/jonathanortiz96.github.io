@@ -1,0 +1,33 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    line-height: 1.5;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 2px;
+    height: 90vh;
+}
+
+header, footer{
+    grid-column: 1 / 4;
+}
+header, footer {
+    border-style: solid;
+    text-align: center;
+    background: lightgray   ;
+    height: 75px;
+    font-size: 3em;
+}
+
+aside, article {
+    border-style: dotted;
+    text-align: center;
+    background: slategrey;
+    height: 700px;
+    font-size: 1.5em;
+}
+
+
